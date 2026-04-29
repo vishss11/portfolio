@@ -1,0 +1,128 @@
+export const personalInfo = {
+  name: "Vishakha Prajapti",
+  title: "Frontend Developer, React Developer, Software Developer",
+  tagline: "I build pixel-perfect, performant web experiences",
+  bio: "Final-year BCA student passionate about crafting modern, accessible UIs. I specialize in React.js, JavaScript, and bridging the gap between design and code. Currently exploring the intersection of AI and frontend development.",
+  location: "Bareilly, Uttar Pradesh, India",
+  email: "06vishakhaprajapti@gmail.com",
+  github: "https://github.com/vishss11",
+  linkedin: "www.linkedin.com/in/vishakha-prajapati1",
+  resumeLink: "/resumev.pdf",
+profileImage: "/profile.jpeg",
+};
+
+export const skills = [
+  { name: "React.js", level: 88, category: "frontend" },
+  { name: "JavaScript", level: 85, category: "frontend" },
+  { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "HTML/CSS", level: 92, category: "frontend" },
+  { name: "Python", level: 72, category: "ml" },
+  { name: "REST APIs", level: 80, category: "backend" },
+  { name: "Git & GitHub", level: 82, category: "tools" },
+  { name: "Machine Learning", level: 65, category: "ai" },
+];
+
+export const techIcons = [
+  { name: "React", icon: "SiReact", color: "#61DAFB" },
+  { name: "JavaScript", icon: "SiJavascript", color: "#F7DF1E" },
+  { name: "TypeScript", icon: "SiTypescript", color: "#3178C6" },
+  { name: "Python", icon: "SiPython", color: "#3776AB" },
+  { name: "Tailwind", icon: "SiTailwindcss", color: "#06B6D4" },
+  { name: "Git", icon: "SiGit", color: "#F05032" },
+  { name: "VS Code", icon: "SiVisualstudiocode", color: "#007ACC" },
+  { name: "Figma", icon: "SiFigma", color: "#F24E1E" },
+  { name: "HuggingFace", icon: "SiHuggingface", color: "#FFD21E" },
+  { name: "Node.js", icon: "SiNodedotjs", color: "#339933" },
+  { name: "MongoDB", icon: "SiMongodb", color: "#47A248" },
+  { name: "Vercel", icon: "SiVercel", color: "#ffffff" },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Detectra",
+    description: "AI-powered fake content detection platform using Hugging Face pretrained models. Detects misinformation across text and images with high accuracy.",
+    tech: ["Flask", "Python", "Hugging Face", "FastAPI"],
+    github: "https://github.com/vishss11",
+    demo: "",
+    featured: true,
+    category: "AI/ML",
+    gradient: "from-emerald-500 to-cyan-500",
+  },
+  {
+    id: 2,
+    title: "React Portfolio",
+    description: "Personal developer portfolio built with React.js showcasing projects, skills, and experience with smooth animations and dark mode.",
+    tech: ["React", "Framer Motion", "Tailwind CSS"],
+    github: "https://github.com/vishss11/portfolio",
+    demo: "https://demo.com",
+    featured: true,
+    category: "Frontend",
+    gradient: "from-violet-500 to-pink-500",
+  },
+  {
+    id: 3,
+    title: "Skycast - Weather Dashboard",
+    description: "Real-time weather application integrating OpenWeather API with dynamic charts and a location-aware interface.",
+    tech: ["React", "REST API", "Chart.js", "CSS"],
+    github: "https://github.com/vishss11/skycast",
+    demo: "https://skycast-3ofv.vercel.app/",
+    featured: false,
+    category: "Frontend",
+    gradient: "from-blue-500 to-indigo-500",
+  },
+  {
+    id: 4,
+    title: "Unscrammble Words Game",
+    description: "A fun word unscrambling game built with JavaScript. Features multiple difficulty levels and a timer.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/vishss11/word-unscrammble",
+    demo: "https://word-unscrammble.vercel.app/",
+    featured: false,
+    category: "Frontend",
+    gradient: "from-orange-500 to-red-500",
+  },
+
+  {
+    id: 5,
+    title: "Guesser",
+    description: "Interactive number guessing game with visual range tracker, temperature hints, difficulty levels, attempt history, and personal best tracking.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/vishss11/guesser", 
+    demo: "https://guesser-jade.vercel.app/",
+    featured: false,
+    category: "Frontend",
+    gradient: "from-rose-500 to-pink-500",
+  },
+];
+
+export const experience = [
+ 
+  {
+    id: 1,
+    role: "BCA — Bachelor of Computer Applications",
+    company: "Khandelwal College of Management Science & Technology",
+    period: "2023 – 2026",
+    description: "Final-year student specializing in software development, data structures, and web technologies. GPA on track for distinction.",
+    tech: ["Data Structures", "DBMS", "Web Dev", "OOP"],
+    type: "education",
+  },
+  {
+    id: 2,
+    role: "Open Source Contributor",
+    company: "GitHub Projects",
+    period: "2023 – Present",
+    description: "Actively contributed to open-source frontend projects, fixed UI bugs, wrote documentation, and participated in hackathons.",
+    tech: ["React", "JavaScript", "GitHub"],
+    type: "work",
+  },
+  {
+    id: 3,
+    role: "Sololearn Certifications",
+    company: "Self-Learning Platform",
+    period: "2022 – 2023",
+    description: "Completed certifications in JavaScript, Java, Frontend Development, and Machine Learning to strengthen technical fundamentals.",
+    tech: ["JavaScript", "Java", "ML", "HTML/CSS", "Frontend"],
+    type: "education",
+  },
+];
