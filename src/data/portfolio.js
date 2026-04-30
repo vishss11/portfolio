@@ -55,7 +55,7 @@ export const projects = [
     description: "Personal developer portfolio built with React.js showcasing projects, skills, and experience with smooth animations and dark mode.",
     tech: ["React", "Framer Motion", "Tailwind CSS"],
     github: "https://github.com/vishss11/portfolio",
-    demo: "https://portfolio-six-mu-m3bbrwpn9s.vercel.app/",
+    demo: "https://vishakhapatnam-portfolio-six-mu-m3bbrwpn9s.vercel.app/",
     featured: true,
     category: "Frontend",
     gradient: "from-violet-500 to-pink-500",
