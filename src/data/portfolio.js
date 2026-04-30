@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Bareilly, Uttar Pradesh, India",
   email: "06vishakhaprajapti@gmail.com",
   github: "https://github.com/vishss11",
-  linkedin: "www.linkedin.com/in/vishakha-prajapati1",
+  linkedin: "https://www.linkedin.com/in/vishakha-prajapati1/",
   resumeLink: "/resumev.pdf",
 profileImage: "/profile.jpeg",
 };
