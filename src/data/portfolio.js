@@ -4,7 +4,7 @@ export const personalInfo = {
   tagline: "I build pixel-perfect, performant web experiences",
   bio: "Final-year BCA student passionate about crafting modern, accessible UIs. I specialize in React.js, JavaScript, and bridging the gap between design and code. Currently exploring the intersection of AI and frontend development.",
   location: "Bareilly, Uttar Pradesh, India",
-  email: "06vishakhaprajapti@gmail.com",
+  email: "06vishakhaprajapati@gmail.com",
   github: "https://github.com/vishss11",
   linkedin: "https://www.linkedin.com/in/vishakha-prajapati1/",
   resumeLink: "/resumevs.pdf",

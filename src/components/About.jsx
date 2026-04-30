@@ -72,7 +72,7 @@ export default function About({ isDark }) {
                 ["Location", personalInfo.location],
                 ["Status", "Open to work"],
                 ["Focus", "React.js & AI"],
-                ["Email", "06vishakhaprajapti@gmail.com"],
+                ["Email", "06vishakhaprajapati@gmail.com"],
               ].map(([k, v]) => (
                 <div key={k} className={`glass rounded-xl p-4 ${isDark ? "" : "bg-gray-50 border-gray-200"}`}>
                   <div className="font-mono text-xs text-accent mb-1">{k}</div>
