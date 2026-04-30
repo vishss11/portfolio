@@ -7,7 +7,7 @@ export const personalInfo = {
   email: "06vishakhaprajapti@gmail.com",
   github: "https://github.com/vishss11",
   linkedin: "https://www.linkedin.com/in/vishakha-prajapati1/",
-  resumeLink: "/resumev.pdf",
+  resumeLink: "/resumevs.pdf",
 profileImage: "/profile.jpeg",
 };
 
